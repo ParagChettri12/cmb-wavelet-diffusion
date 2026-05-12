@@ -227,7 +227,7 @@ sbatch jobs/finetuning.sh            # V100, 6h (runs Steps 3-6 end-to-end)
   title   = {Toward Field-Level, Uncertainty-Aware CMB Reconstruction
              via Wavelet-Domain Conditional Diffusion Models},
   author  = {Chettri, Parag},
-  journal = {arXiv preprint},
+  journal = {MNRAS},
   year    = {2026}
 }
 ```
