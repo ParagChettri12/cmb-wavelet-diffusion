@@ -43,7 +43,8 @@ CMB-ML/
 │   └── dataset.py           # PyTorch Dataset / DataLoader (HPC/Lustre-safe)
 └── jobs/                    # SLURM job scripts for HPC
     ├── production_training.sh
-    └── finetuning.sh
+    ├── finetuning.sh
+    └── smica_rmse.sh        # Auxillary job that tests 15 tau (temperature) values inclusive between 1 & 8 with 32 samples 
 ```
 
 ---
