@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────
+# CMB Reconstruction Pipeline — Dependencies Python Packages 
+# ─────────────────────────────────────────────
+
+# Core scientific stack python packages
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Astronomy / FITS / HEALPix
+astropy>=5.3               # FITS I/O + coordinate frames
+astropy-healpix>=0.7       # HEALPix pixel math — pure Python, no C extensions
+
+# Wavelet transforms
+PyWavelets>=1.4
+
+# Deep learning
+torch>=2.1
+torchvision>=0.16
+
+# Data storage and utilities
+h5py>=3.9                  # fast compressed tensor storage
+tqdm>=4.65
+joblib>=1.3                # parallel preprocessing
+
