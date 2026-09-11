@@ -1,0 +1,17 @@
+{
+  "sync_30GHz": {
+    "raw": 0.6810818813643443,
+    "partial_lat": 0.6804786981100346,
+    "partial_lat_boundary": 0.6804786981100345
+  },
+  "dust_353GHz": {
+    "raw": 0.7010097571476999,
+    "partial_lat": 0.7019296344940912,
+    "partial_lat_boundary": 0.7019296344940908
+  },
+  "residual": {
+    "raw": 0.8120999038751372,
+    "partial_lat": 0.8117275072527894,
+    "partial_lat_boundary": 0.8117275072527889
+  }
+}

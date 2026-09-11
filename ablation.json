@@ -1,0 +1,30 @@
+{
+  "A_vpred_only": {
+    "lambda_ps": 0.0,
+    "lambda_crps": 0.0,
+    "lambda_z": 0.001,
+    "eta_star": 5.0,
+    "finetune_epochs": 20
+  },
+  "B_vpred_ps": {
+    "lambda_ps": 0.002,
+    "lambda_crps": 0.0,
+    "lambda_z": 0.001,
+    "eta_star": 5.0,
+    "finetune_epochs": 20
+  },
+  "C_vpred_crps": {
+    "lambda_ps": 0.0,
+    "lambda_crps": 0.05,
+    "lambda_z": 0.001,
+    "eta_star": 5.0,
+    "finetune_epochs": 20
+  },
+  "D_full_loss": {
+    "lambda_ps": 0.002,
+    "lambda_crps": 0.05,
+    "lambda_z": 0.001,
+    "eta_star": 5.0,
+    "finetune_epochs": 20
+  }
+}

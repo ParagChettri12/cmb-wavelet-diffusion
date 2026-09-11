@@ -1,0 +1,41 @@
+{
+  "rmse_normalised": 0.9588497281074524,
+  "rmse_uk": 54.43440912995833,
+  "coverage_68": {
+    "mean": 0.6308212280273438,
+    "ci_lo": 0.6272600282941545,
+    "ci_hi": 0.6341690063476563,
+    "se": 0.001767198849030789
+  },
+  "coverage_95": {
+    "mean": 0.9088191441127232,
+    "ci_lo": 0.905859751020159,
+    "ci_hi": 0.9116255296979632,
+    "se": 0.0014450531300806374
+  },
+  "energy_score": 0.5373720932947962,
+  "tail_asymmetry": {
+    "p_below_16th": 0.18408726283482144,
+    "p_above_84th": 0.18509150913783481,
+    "asymmetry_ratio": 0.994574325382665
+  },
+  "coverage_by_region_68": {
+    "low_lat": {
+      "coverage": 0.6462657237714111,
+      "n_patches": 613,
+      "lat_range": "|b|=30-50deg"
+    },
+    "mid_lat": {
+      "coverage": 0.6214537328603317,
+      "n_patches": 392,
+      "lat_range": "|b|=50-70deg"
+    },
+    "high_lat": {
+      "coverage": 0.5804262907608696,
+      "n_patches": 115,
+      "lat_range": "|b|=70-90deg"
+    }
+  },
+  "n_patches": 1120,
+  "n_samples": 100
+}
